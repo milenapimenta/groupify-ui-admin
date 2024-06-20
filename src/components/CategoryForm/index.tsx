@@ -6,7 +6,7 @@ import InputComponent from "../InputComponent";
 const CategoryForm = () => {
   return (
     <>
-      <h1>Nova Categoria</h1>
+      <h1>Criar Categoria</h1>
       <FormComponent>
         <div style={{display: 'flex', justifyContent: "space-between"}}>
           <div style={{width: '45%'}}>
