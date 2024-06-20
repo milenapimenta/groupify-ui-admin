@@ -17,7 +17,7 @@ const UserForm: React.FC<UserFormProps> = ({ handleInputChange, onSubmit, initia
   return (
     <>
       <Title style={{ marginBottom: '48px' }} level={3}>
-        {initialValues ? 'Editar Usuário' : 'Novo Usuário'}
+        {initialValues ? 'Editar Usuário' : 'Criar Usuário'}
       </Title>
         <Form
           layout="vertical"
